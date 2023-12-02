@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "F:\\TASKS\\Heliverse\\logs\\winston\\errors\\.b43c14f843af1c63ba0d74f4e7b92f7930889de8-audit.json",
+    "files": [
+        {
+            "date": 1701447708258,
+            "name": "F:\\TASKS\\Heliverse\\logs\\winston\\errors\\phu-2023-01-12-22-error.log",
+            "hash": "461284e0144622d4d85fb372a56d41ef3215bd910c68da8d26d4bebaea84b55b"
+        },
+        {
+            "date": 1701496147219,
+            "name": "F:\\TASKS\\Heliverse\\logs\\winston\\errors\\phu-2023-02-12-11-error.log",
+            "hash": "e3535df283b6621ebc877a43c00b486b44ccc141d108adb95f8864270557a5c6"
+        },
+        {
+            "date": 1701498139652,
+            "name": "F:\\TASKS\\Heliverse\\logs\\winston\\errors\\phu-2023-02-12-12-error.log",
+            "hash": "1e294809133ff83014ae329fdd735f811e5888b9cdf79bb481d78fabb9a7515f"
+        }
+    ],
+    "hashType": "sha256"
+}
