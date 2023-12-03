@@ -9,7 +9,7 @@ import handleValidationError from '../../errors/handleValidationError';
 import { ZodError } from 'zod';
 import handleCastError from '../../errors/handleCastError';
 import { IGenericErrorMessage } from '../../interfaces/error';
-import { errorlogger } from '../../shared/logger';
+// import { errorlogger } from '../../shared/logger';
 import handleZodError from './handelZodError';
 
 const globalErrorHandler: ErrorRequestHandler = (
@@ -20,7 +20,7 @@ const globalErrorHandler: ErrorRequestHandler = (
 ) => {
   config.env === 'development'
     ? console.log(`🐱‍🏍 globalErrorHandler ~~`, { error })
-    : errorlogger.error(`🐱‍🏍 globalErrorHandler ~~`, error);
+    : console.log(`🐱‍🏍 globalErrorHandler ~~`, error);
 
   let statusCode = 500;
   let message = 'Something went wrong !';
