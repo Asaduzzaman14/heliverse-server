@@ -9,13 +9,11 @@ const PcPartsSchema = new mongoose_1.Schema({
     users: [
         {
             id: { type: Number },
+            _id: { type: String },
             first_name: { type: String },
             last_name: { type: String },
             email: { type: String },
-            gender: {
-                type: String,
-                enum: ['Male', 'Female', 'Other'], // Add other gender options if needed
-            },
+            gender: { type: String },
             avatar: { type: String },
             domain: { type: String },
             available: { type: Boolean },

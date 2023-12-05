@@ -2,6 +2,7 @@ import { Model } from 'mongoose';
 
 export type IUser = {
   id: number;
+  _id: any;
   first_name: string;
   last_name: string;
   email: string;
@@ -12,8 +13,8 @@ export type IUser = {
 };
 
 export type IUsers = {
-  email: string;
-  users: IUser[];
+  email?: string;
+  users?: IUser[];
 };
 
 export type TeamModal = Model<IUsers, unknown>;
