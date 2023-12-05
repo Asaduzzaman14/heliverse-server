@@ -7,12 +7,12 @@ const router = express.Router();
 const moduleRoutes = [
   // ... routes
   {
-    path: '/users',
-    route: UserRoutes,
-  },
-  {
     path: '/team',
     route: TeamRoutes,
+  },
+  {
+    path: '/users',
+    route: UserRoutes,
   },
 ];
 
